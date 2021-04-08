@@ -1,0 +1,180 @@
+/* entrar.html */
+
+.entrar {
+    background-color: #DC2F02;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 80px auto;
+    box-sizing: border-box;
+}
+
+.entrar h1 {
+    color: white;
+    text-align: center;
+}
+
+.fild {
+    margin-top: 35px;
+    border: 0;
+}
+
+.inf-pessoal {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.fild input {
+    width: 250px;
+    border: 0;
+    padding: 12px 20px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.entrar label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.entrar option {
+    width: 50px;
+}
+
+.botao-entrar {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-entrar a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #03071E;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: Bebas neue;
+    align-items: center;
+    background-color: #03071E;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.botao-entrar a:hover {
+    background-color: #E85D04;
+    padding: 9.5px;
+}
+
+.texto {
+    height: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.texto a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto a:hover {
+    border-bottom: 1px solid #03071E;
+}
+
+
+/* cadastrar.html */
+
+.cadastro {
+    background-color: #DC2F02;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 80px auto;
+    box-sizing: border-box;
+}
+
+.cadast {
+    border: 0;
+}
+
+.cadast h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cadast label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.cadast input {
+    border: 0;
+    padding: 12px 20px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.cont-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-2,
+.cont-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-2 label,
+input {
+    margin-bottom: 24px;
+}
+
+.cont-1 label,
+input {
+    margin-bottom: 24px;
+}
+
+.botao-cadastrar {
+    width: 90px;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-cadastrar a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #03071E;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: Bebas neue;
+    align-items: center;
+    background-color: #03071E;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.botao-cadastrar a:hover {
+    background-color: #E85D04;
+    padding: 9.5px;
+}
